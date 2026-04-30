@@ -22,30 +22,30 @@ Question 1: Analyse packet1.pcap and find the flag.
 - Port 21 (FTP)
 Upload/download files
 Anonymous login attack 
-•	Port 22 (SSH)
+-	Port 22 (SSH)
 Brute-force login
-Remote access 
-•	Port 80 (HTTP)
+Remote access
+-	Port 80 (HTTP)
 Website attacks (SQLi, XSS) 
-•	Port 139 & 445 (SMB)
+-	Port 139 & 445 (SMB)
 File sharing access
 Exploit Windows vulnerabilities
 
 ## 2. Vulnerabilities
-•	vsftpd 2.3.4
+-	vsftpd 2.3.4
 Backdoor vulnerability (very famous) 
-•	OpenSSH 5.3
+-	OpenSSH 5.3
 Old version - possible brute-force & weak crypto 
-•	Apache 2.2.8
+-	Apache 2.2.8
 Outdated - multiple CVEs (RCE, DoS) 
-•	SMB (Windows 7 SP1)
+-	SMB (Windows 7 SP1)
 Vulnerable to EternalBlue (MS17-010)
 
 ## 4. Highest Risk
- Port 445 (SMB)
-•	Remote code execution 
-•	Wormable (spreads automatically) 
-•	Used in ransomware (e.g. WannaCry)
+Port 445 (SMB)
+-	Remote code execution 
+-	Wormable (spreads automatically) 
+-	Used in ransomware (e.g. WannaCry)
 
 ## 5. Attack Path
 Example attack chain:
@@ -56,8 +56,8 @@ Example attack chain:
 5.	Access FTP / Web data
 
 ## 6. Remediation
-•	Disable unused ports 
-•	Update software 
-•	Patch Windows (MS17-010) 
-•	Use strong passwords 
-•	Firewall rules
+-	Disable unused ports 
+-	Update software 
+-	Patch Windows (MS17-010) 
+-	Use strong passwords 
+-	Firewall rules
