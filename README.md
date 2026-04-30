@@ -18,8 +18,8 @@ Question 1: Analyse packet1.pcap and find the flag.
 4.	What attack path can be built from this?
 5.	What should be the remediation?
 
-1. What attacker can do
-•	Port 21 (FTP)
+## 1. What attacker can do
+- Port 21 (FTP)
 Upload/download files
 Anonymous login attack 
 •	Port 22 (SSH)
@@ -31,7 +31,7 @@ Website attacks (SQLi, XSS)
 File sharing access
 Exploit Windows vulnerabilities
 
-2. Vulnerabilities
+## 2. Vulnerabilities
 •	vsftpd 2.3.4
 Backdoor vulnerability (very famous) 
 •	OpenSSH 5.3
@@ -41,13 +41,13 @@ Outdated - multiple CVEs (RCE, DoS)
 •	SMB (Windows 7 SP1)
 Vulnerable to EternalBlue (MS17-010)
 
-4. Highest Risk
+## 4. Highest Risk
  Port 445 (SMB)
 •	Remote code execution 
 •	Wormable (spreads automatically) 
 •	Used in ransomware (e.g. WannaCry)
 
-5. Attack Path
+## 5. Attack Path
 Example attack chain:
 1.	Scan target (Nmap) 
 2.	Exploit SMB (EternalBlue) 
@@ -55,7 +55,7 @@ Example attack chain:
 4.	Move laterally 
 5.	Access FTP / Web data
 
-6. Remediation
+## 6. Remediation
 •	Disable unused ports 
 •	Update software 
 •	Patch Windows (MS17-010) 
