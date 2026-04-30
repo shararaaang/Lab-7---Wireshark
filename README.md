@@ -3,12 +3,13 @@
 ## TASK 7
 
 ANSWER
-Question 1: Analyse packet1.pcap and find the flag. 
+## Question 1: Analyse packet1.pcap and find the flag. 
 
 <img width="605" height="279" alt="image" src="https://github.com/user-attachments/assets/b5a6f76c-7d78-4c57-83d3-1d0e200f7a6b" />
 
 <img width="450" height="228" alt="image" src="https://github.com/user-attachments/assets/16e10f95-7124-4edf-abad-ebc39c0003d4" />
 
+## Question 2: Analyse packet2.pcap and find the flag. 
 
 
 ## Question 3: Interpret an Nmap Output
@@ -41,13 +42,13 @@ Outdated - multiple CVEs (RCE, DoS)
 -	SMB (Windows 7 SP1)
 Vulnerable to EternalBlue (MS17-010)
 
-## 4. Highest Risk
+## 3. Highest Risk
 Port 445 (SMB)
 -	Remote code execution 
 -	Wormable (spreads automatically) 
 -	Used in ransomware (e.g. WannaCry)
 
-## 5. Attack Path
+## 4. Attack Path
 Example attack chain:
 1.	Scan target (Nmap) 
 2.	Exploit SMB (EternalBlue) 
@@ -55,9 +56,17 @@ Example attack chain:
 4.	Move laterally 
 5.	Access FTP / Web data
 
-## 6. Remediation
+## 5. Remediation
 -	Disable unused ports 
 -	Update software 
 -	Patch Windows (MS17-010) 
 -	Use strong passwords 
 -	Firewall rules
+
+## Question 4: Identify the OS (OS Fingerprinting) - TTL
+The TTL value observed is 128, which indicates the system is likely running Windows OS.
+Image 1 : TTL 64 = Linux.  
+
+Image 2 : TTL 128 = Windows.  
+
+Image 3 : TTL 255 = Network Device.
