@@ -70,3 +70,21 @@ Image 1 : TTL 64 = Linux.
 Image 2 : TTL 128 = Windows.  
 
 Image 3 : TTL 255 = Network Device.
+
+## Question 5: Analyse the Nessus file
+Nessus Scanning result.
+
+<img width="1919" height="890" alt="Screenshot 2026-05-01 015208" src="https://github.com/user-attachments/assets/6395a366-0a26-4310-845b-7f5f69ac3a19" />
+
+<img width="1916" height="884" alt="Screenshot 2026-05-01 015304" src="https://github.com/user-attachments/assets/4d6eb03a-6f51-4837-8028-f80b00a0f012" />
+
+<img width="1919" height="886" alt="Screenshot 2026-05-01 015355" src="https://github.com/user-attachments/assets/7aa7ef2f-aecc-4450-86f0-50eb1cc25d8a" />
+
+<img width="1919" height="844" alt="Screenshot 2026-05-01 015952" src="https://github.com/user-attachments/assets/0881c893-b030-461b-b640-4b12d46c53af" />
+
+
+1.	What is the affected Port number
+Answer: 8009
+
+2.	What is the Affected protocol
+Answer: 
