@@ -84,7 +84,16 @@ Nessus Scanning result.
 
 
 1.	What is the affected Port number
-Answer: 8009
+- Answer: 8009
 
 2.	What is the Affected protocol
-Answer: 
+- Answer: Apache JServ Protocol
+
+3.	What is the CVSS Score of vulnerability found
+- 9.8 (Critical)
+
+4.	Can you find any exploit related to this vulnerability?
+- Yes, attackers can read sensitive files and potentially execute remote code.
+
+5.	Find CVE for this vulnerability.
+- CVE-2020-1938
