@@ -11,6 +11,19 @@ ANSWER
 
 ## Question 2: Analyse packet2.pcap and find the flag. 
 
+<img width="1905" height="953" alt="Screenshot 2026-05-01 002335" src="https://github.com/user-attachments/assets/bf6e2144-bb6d-4b5b-905e-3815ad342488" />
+
+<img width="753" height="339" alt="Screenshot 2026-05-01 003417" src="https://github.com/user-attachments/assets/0dce1f41-3cb0-4d16-a1d5-3e36ca1d9184" />
+
+<img width="752" height="893" alt="Screenshot 2026-05-01 003659" src="https://github.com/user-attachments/assets/83a1ed28-37e0-4856-98a0-e3206e8cf0b1" />
+
+<img width="953" height="939" alt="Screenshot 2026-05-01 003736" src="https://github.com/user-attachments/assets/a674e8cd-ae1c-4a4a-b872-0e7390786ccb" />
+
+<img width="848" height="311" alt="Screenshot 2026-05-01 003958" src="https://github.com/user-attachments/assets/a091dfbb-bc99-4095-96bb-6c04aa69c004" />
+
+<img width="948" height="753" alt="Screenshot 2026-05-01 003940" src="https://github.com/user-attachments/assets/b39bfdc7-7ff5-494f-ad72-3d38ceeb8b33" />
+
+
 
 ## Question 3: Interpret an Nmap Output
 1.	What can an attacker do with each port?
